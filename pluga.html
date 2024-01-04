@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link rel="shortcut icon" type="x-icon" href="Images/Pluga Logo3.png">
+		<link rel="shortcut icon" type="x-icon" href="Images/Pluga Logo3.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,61 +21,61 @@
 
 
 <style>
-        .share-button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 14px;
-            cursor: pointer;
-            display: inline-block;
-            margin-bottom: 10px;
-            margin-left: 10%;
-            margin-top: 12px;
-        }
+		.share-button {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px;
+			border-radius: 14px;
+			cursor: pointer;
+			display: inline-block;
+			margin-bottom: 10px;
+			margin-left: 10%;
+			margin-top: 12px;
+		}
 
-        .social-platforms {
-            display: none;
-        }
+		.social-platforms {
+			display: none;
+		}
 
-        .social-platforms.show {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px;
-            padding-bottom: 10px;
-            margin-right: 5px;
-        }
+		.social-platforms.show {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			margin-right: 5px;
+		}
 
-        .social-platforms a {
-            margin: 8px;
-            color: white;
-            font-size: 30px;
-        }
-    </style>
-    <script>
-        function showSocialPlatforms() {
-            const socialPlatforms = document.querySelector('.social-platforms');
-            socialPlatforms.classList.toggle('show');
-        }
+		.social-platforms a {
+			margin: 8px;
+			color: white;
+			font-size: 30px;
+		}
+	</style>
+	<script>
+		function showSocialPlatforms() {
+			const socialPlatforms = document.querySelector('.social-platforms');
+			socialPlatforms.classList.toggle('show');
+		}
 
-        function shareLink(platform) {
-            var linkToShare = "https://avatar-pluga.netlify.app/index.html"; // Replace with your link to share
-            var socialUrl;
+		function shareLink(platform) {
+			var linkToShare = "https://avatar-pluga.netlify.app/index.html"; // Replace with your link to share
+			var socialUrl;
 
-            if (platform === 'facebook') {
-                socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'instagram') {
-                socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'email') {
-                socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
-            } else if (platform === 'whatsapp') {
-                socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
-            }
+			if (platform === 'facebook') {
+				socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'instagram') {
+				socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'email') {
+				socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'whatsapp') {
+				socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
+			}
 
-            window.open(socialUrl, '_blank');
-        }
-    </script>
+			window.open(socialUrl, '_blank');
+		}
+	</script>
 
 
 
@@ -131,9 +131,9 @@
             <!-- hero content section  -->
             <div class="hero-content">
                 <div class="content-header">
-                    <h1 style="background-color: transparent;"><span>Birthday Cakes | Wedding Cakes | Cakes for any occassion | Scons | Buscuits | Daughnuts & more...</span></h1>
-                    <p style="background-color: transparent;">Just place an order & we are at your service you can also book a special order from our Booking section, you just tell us what you need & we will make it for you.
-                        </p>
+                    <h1 style="background-color: transparent;"><span>Bake, Bake is What we do</span></h1>
+                    <p style="background-color: transparent;">For Birthday Cakes | Wedding Cakes | Cakes for any occassion | Scons | Buscuits | Daughnuts & more we got you...Just place an order & we are at your service you can also book a special order from our Booking section, you just tell us what you need & we will make it for you.
+                    	</p>
 
 
                      <!-- social icon list  -->
@@ -161,7 +161,7 @@
             <div style="" class="hero-image">
                 <img src="Images/Product (8).jpg" alt="">
             </div>
-            
+			
 
            
     </div>
@@ -170,12 +170,12 @@
 <div class="share-button" onclick="showSocialPlatforms()"><i class="fas fa-share"></i>Share Plug</div>
 
 <!-- Insert site/plug sharing links -->
-    <div class="social-platforms">
-        <a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('facebook')"><i class="fab fa-facebook" style="color: blue; font-size: 70px;"></i></a>
-        <a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('instagram')"><i class="fab fa-instagram" style="color: purple; font-size: 70px;"></i></a>
-        <a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('email')"><i class="fas fa-envelope" style="color: red; font-size: 70px;"></i></a>
-        <a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('whatsapp')"><i class="fab fa-whatsapp" style="color: green; font-size: 70px;"></i></a>
-    </div>
+	<div class="social-platforms">
+		<a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('facebook')"><i class="fab fa-facebook" style="color: blue; font-size: 70px;"></i></a>
+		<a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('instagram')"><i class="fab fa-instagram" style="color: purple; font-size: 70px;"></i></a>
+		<a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('email')"><i class="fas fa-envelope" style="color: red; font-size: 70px;"></i></a>
+		<a href="https://avatar-pluga.netlify.app/index.html" onclick="shareLink('whatsapp')"><i class="fab fa-whatsapp" style="color: green; font-size: 70px;"></i></a>
+	</div>
 
 
 
@@ -189,14 +189,14 @@
 <div class="gallaries" style="text-align: center; margin-top: 12px">
 <img src="Images/Pluga Logo3.png" style="text-align: center; width: 15px; height: auto;">
 </div>
-    <footer style="text-align: center;">
+	<footer style="text-align: center;">
 <div class="outer-footer">
     <p style="font-size: x-small; border: none; background-color: transparent;">  Copyright &copy; 2023 <a href="https://www.blossomvelder.co.za">@Blossom Velder pty, Ltd.</a> All Rigths Reserved</p>
   </div>
-    </div>              
-            </div>
-        </div>
-    </div>
+  	</div>				
+			</div>
+		</div>
+	</div>
 </div>
 </footer>
 
